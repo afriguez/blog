@@ -7,7 +7,6 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Blog",
-  tagline: "Test Blog",
   url: "https://blog.afriguez.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -31,12 +30,11 @@ const config = {
         docs: false,
         blog: {
           blogTitle: "Fer L. | Personal Blog",
+		  blogDescription: "Personal blog - afriguez.com",
 		  blogSidebarTitle: "Latest posts",
 		  blogSidebarCount: 10,
           routeBasePath: "/",
           showReadingTime: true,
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
